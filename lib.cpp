@@ -1,12 +1,14 @@
-
 #include "lib.h"
 
-bool primo(int a,int b){
-    for(int i=a;i>1;i--){
-        int s=b%i;
-        if(s==0){
+bool primo(int a, int b){
+    a--;
+    if(a > 1){
+        if(b%a == 0){
             return false;
+        }else {
+            primo(a, b);
         }
+    }else{
+        return true;
     }
-    return true;
 }
