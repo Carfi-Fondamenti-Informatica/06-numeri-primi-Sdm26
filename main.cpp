@@ -4,9 +4,9 @@
 using namespace std;
 
 int main() {
-    int c = 0;
-    cin >> c;
-    if(primo(c,c)){
+    int a = 0;
+    cin >> a;
+    if(primo(a,a)){
         cout << "numero primo";
     }else{
         cout << "numero non primo";
