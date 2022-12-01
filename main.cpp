@@ -5,10 +5,9 @@ using namespace std;
 int main() {
     int c;
 cin>>c;
-bool num_primo=primo(c,c);
-if (num_primo==1){
+if (primo(c,c)){
     cout<<"numero primo"<<endl;
-}else if (num_primo==0){
+}else{
     cout<<"numero non primo"<<endl;
 }
     return 0;
