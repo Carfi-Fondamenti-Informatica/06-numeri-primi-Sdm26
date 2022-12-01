@@ -6,9 +6,9 @@ int main() {
     int c;
 cin>>c;
 if (primo(c,c)){
-    cout<<"numero primo"<<endl;
+    cout<<"numero primo";
 }else{
-    cout<<"numero non primo"<<endl;
+    cout<<"numero non primo";
 }
     return 0;
 }
